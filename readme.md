@@ -8,7 +8,7 @@ Framework was designed and created to test endpoints that are part of the 'Fixer
 ## Installation
 #### Prerequisites
 - Java 11 and Maven installed
-- Subscription to [FixerApi](https://apilayer.com/marketplace/fixer-api)
+- Subscription to [FixerApi](https://apilayer.com/marketplace/fixer-api) and tokens added to `resources/environments`
 
 Install project with maven
 
