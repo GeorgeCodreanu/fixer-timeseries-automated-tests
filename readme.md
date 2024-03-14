@@ -6,14 +6,15 @@ Framework was designed and created to test endpoints that are part of the 'Fixer
 
 
 ## Installation
+#### Prerequisites
+- Java 11 and Maven installed
+- Subscription to [FixerApi](https://apilayer.com/marketplace/fixer-api)
 
 Install project with maven
 
 ```bash
   mvn package
 ```
-
-## Navigating the framework
 
 ## Navigating the framework
 All of the following packages start from `test/iceo.assignment`
@@ -33,19 +34,22 @@ To run tests, either execute `TestRunner.java` locally or run the following mave
   mvn verify
 ```
 
-
 ## Environment Variables
 
 This framework has 2 sets of properties
 
-
-### serenity.properties
+#### serenity.properties
 Here we can configure serenity and also add wider used variables such as environment
 
-### resources/environments/*.properties
+#### resources/environments/*.properties
 Property files for each type of environment, where we can store tokens and urls.
 
-## Authors
+## Extra documentation
+- [Serenity-BDD.info](https://serenity-bdd.info/documentation/)
+- [Fixer API documentation](https://apilayer.com/marketplace/fixer-api)
+- [RestAssured](https://rest-assured.io/)
+- [Cucumber](https://cucumber.io/docs/cucumber/)
 
+## Authors
 - [@george.codreanu](https://www.github.com/GeorgeCodreanu)
 
